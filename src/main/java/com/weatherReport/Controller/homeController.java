@@ -64,6 +64,7 @@ public class homeController {
             RestTemplate app = new RestTemplate();
             String uri = "http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&appid="+key;
             String JSONResponse = app.getForObject(uri , String.class);
+            System.out.println(JSONResponse);
             weather w = util.jsonToObj(JSONResponse,weather.class);
             model.put("show",true);
             model.put("temp",String.valueOf(w.getMain().getTemp()).substring(0,4)+" C");
