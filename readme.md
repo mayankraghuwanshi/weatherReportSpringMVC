@@ -1,4 +1,4 @@
-##Prerequisites
+## Prerequisites
 You are required to have few tools before you start with using the source code.<br>
 - JDK 1.8
 - Maven
@@ -7,7 +7,7 @@ You are required to have few tools before you start with using the source code.<
 - Git
 
 
-##To run this project follow these steps.
+## To run this project follow these steps.
 
 [STEP 1]: Download the source code to your computer.
 ```javascript 1.5
